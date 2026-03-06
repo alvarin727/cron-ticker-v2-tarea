@@ -52,7 +52,7 @@ build:
       - run: npm run build
 
 summary:
-    name: ✅ Summary
+    name: Summary
     runs-on: ubuntu-latest
     needs: [lint, test, build]
     if: always()
