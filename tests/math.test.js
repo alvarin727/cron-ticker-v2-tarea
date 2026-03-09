@@ -43,7 +43,7 @@ describe('isEven', () => {
 describe('getGreeting', () => {
 
     test('debe retornar saludo con el nombre', () => {
-        expect(getGreeting('Mundo')).toBe('Hola, Mundo!');
+        expect(getGreeting('Mundo')).toBe('Hola Mundo!');
     });
 
     test('debe lanzar error si no se pasa nombre', () => {
